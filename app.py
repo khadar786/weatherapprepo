@@ -1,10 +1,6 @@
 from flask import Flask,request,jsonify,render_template
 import requests
 app=Flask(__name__)
-#mentor api:b2f7276693524dc1283929277faa0eae
-#my api:8ef065fabaee20d930c7227703f446a2
-
-
 
 
 @app.route("/")
